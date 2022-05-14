@@ -1,0 +1,68 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: #F0F3BD;
+}
+.book, .join{
+    text-decoration: none;
+    color: #F0F3BD;
+}
+footer a{
+    text-decoration: none;
+    color: #02C39A;
+}
+.card-img{
+    width: 80%;
+    max-height: 500px;
+}
+#hero-img{
+    max-height: 400px;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#background {
+    height: 725px;
+    background-color: #1B5299;
+    color: #F0F3BD;
+}
+body{
+    background-color: #FF1053;
+    color: #F0F3BD;
+}
+header{
+    background-color: #02C39A;
+    color: #F0F3BD;
+}
+nav a:hover{
+    background-color: #F0F3BD;
+    color: #02C39A;
+}
+.book, .join{
+    background-color: #02C39A;
+    color: #F0F3BD;
+}
+.book:hover, .join:hover{
+    background-color: #F0F3BD;
+    color: #02C39A;
+}
+.msg{
+    background-color: #02C39A;
+    color: #F0F3BD;
+}
+footer{
+    background-color: #F0F3BD;
+    color: #02C39A;
+}
+.logo{
+    width: 250px;
+}
+.icon{
+    width: 80px;
+}

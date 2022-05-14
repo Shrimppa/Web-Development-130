@@ -1,0 +1,36 @@
+.colored-background{
+    color: green;
+    background-color: salmon;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 1em;
+}
+.media-box{
+    background-color: aqua;
+}
+body{
+    max-width: 960px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.centered{
+    text-align: center;
+}
+a:link{
+    color: salmon;
+    text-decoration: none;    
+}
+a:visited{
+    color:fuchsia;
+    text-decoration: none;
+}
+a:hover{
+    color:aqua;
+    text-decoration: none;
+}
+a:active{
+    color:aqua;
+    text-decoration: line-through;
+}
