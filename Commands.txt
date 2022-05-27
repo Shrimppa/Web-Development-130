@@ -1,0 +1,14 @@
+floats
+position
+margin
+floatbox
+css grid
+
+display: grid;
+grid-emplate-columns: 1fr 100px 1fr;
+justify-items: start;
+align-content: center;
+justify-content: center;
+
+grid-column: 2/4;
+grid-row: 2/3;
