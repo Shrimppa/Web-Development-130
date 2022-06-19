@@ -30,27 +30,26 @@ nav a:hover{
 }
 #header-box {
     display: grid;
-    grid-template-columns: 10% 10% 30% 30% 10% 10%;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr;
 }
 .logo{
-    grid-column: 3/4;
+    grid-column: 1/2;
     width: 200px;
     height: 100px;
 }
 #button-box{
-    grid-column: 3/4;
+    grid-column: 2/3;
 }
 nav{
     padding: 20px 20px; 
-    /* display: flex;
+    display: flex;
     justify-content: space-around;
-    align-items: center */
-    grid-column: 4/5;
+    align-items: center
 }
 #hero{
     display: grid;
-    grid-template-columns: 5% 1fr 3fr 1fr 5%;
+    grid-template-columns: 1fr 3fr 1fr;
 
     margin-top: -100px;
 }
@@ -61,7 +60,7 @@ nav{
     margin-right: 0%;
 }
 #hero-box{
-    grid-column: 2/5;
+    grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
@@ -79,8 +78,6 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
     background-color: #F0F3BD;
     color: #02C39A;
     padding: 25px 50px;
@@ -106,67 +103,54 @@ nav a{
     display: grid;
     justify-items: auto;
     row-gap: 30px;
-    grid-template-columns: 5% 45% 45% 5%;
-    grid-template-rows: 3em 2em 4em 1em 15em 1em 21em;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
 }
 .a1{
-    grid-column: 2/3;
-    grid-row: 1/2;
+    grid-column: 1/2;
+    grid-row: auto;
 }
 .a2{
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-column: 1/2;
+    grid-row: auto;
 }
 .a3{
-    grid-column: 2/3;
-    grid-row: 3/4;
+    grid-column: 1/2;
+    grid-row: auto;
 }
 .a4{
-    grid-column: 2/3;
-    grid-row: 4/5;
+    grid-column: 1/2;
+    grid-row: auto;
 }
 .a5{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
     grid-column: 2/3;
-    grid-row: 5/6;
+    grid-row: 1/4;
+    margin-top: -30px;
+    margin-right: 30px;
 }
 .a6{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
     grid-column: 2/3;
-    grid-row: 6/7;
+    grid-row: 4/6;
+    margin-top: -50px;
+    margin-right: 30px;
 }
 .a7{
-    grid-column: 2/3;
-    grid-row: 7/8;
-}
-.a7p2{
-    grid-column: 2/3;
-    grid-row: 8/9;
-}
-
-.a8{
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-    grid-column: 3/4;
-    grid-row: 3/4;
-}
-.a9{
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-    grid-column: 3/4;
-    grid-row: 6/7;
-}
-.a10{
     max-width: 100%;
     height: 100%;
     margin-left: 0%;
     margin-right: 0%;
-    grid-column: 3/4;
-    grid-row: 8/9;
-    object-position: 50% 50%;
-    
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin-top: -190px;
+    margin-right: 30px;
 }
 @media screen and (max-width: 900px) {
     nav, footer {
@@ -178,5 +162,51 @@ nav a{
     }
     header{
         background-color: #02C39A;
+    }
+    .a1{
+        grid-column: 1/3;
+        grid-row: auto;
+    }
+    .a2{
+        grid-column: 1/3;
+        grid-row: auto;
+    }
+    .a3{
+        grid-column: 1/3;
+        grid-row: auto;
+    }
+    .a4{
+        grid-column: 1/3;
+        grid-row: auto;
+    }
+    .a5{
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        grid-column: 1/3;
+        grid-row: auto;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .a6{
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        grid-column: 1/3;
+        grid-row: auto;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .a7{
+        max-width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        grid-column: 1/3;
+        grid-row: auto;
+        margin-top: 0px;
+        margin-right: 0px;
     }
 }
