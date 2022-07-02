@@ -75,6 +75,7 @@ body{
     grid-row: 1/2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.1em;
 }
 .p1{
     width: 80%;
