@@ -56,6 +56,7 @@ body{
 #video{
     grid-column: 1/2;
     grid-row: 1/2;
+    border: 4px solid #D00000;
 }
 .video-paragraph{
     grid-column: 2/3;
@@ -98,7 +99,6 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-
 }
 .header-text{
     padding: 20px 20px; 
@@ -113,6 +113,7 @@ body{
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 20px;
 }
 .i1{
     width: 98%;
@@ -120,20 +121,21 @@ body{
     grid-column: 1/2;
     margin-left: 15px;
     margin-top: 20px;
+    border: 4px solid #D00000;
 }
 .i2{
     width: 98%;
     height: 100%;
     grid-column: 2/3;
     margin: 20px;
-    padding-right: 10px;
+    border: 4px solid #D00000;
 }
 .i3{
     width: 94%;
     height: 100%;
     grid-column: 3/4;
     margin: 20px;
-    padding-right: 15px;
+    border: 4px solid #D00000;
 }
 
 footer{
@@ -143,6 +145,19 @@ footer{
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 75px 125px;
 }
+nav a:hover{
+    background-color: #D00000;
+    color: #23C9FF;
+    border-radius: 60%;
+}
+nav a{
+    text-decoration: none;
+    color: #D00000;
+    border-radius: 60%;
+    background-color: #F8F4F9;
+    padding: 20px;
+    margin: 0px;
+}
 
 
 
@@ -150,7 +165,7 @@ footer{
 .wrapper-2x1 .inner {  position: relative;  padding-bottom: 50%;  height: 0;}
 .element-to-stretch {  position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;}
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
     #video{
         grid-column: 1/3;
     }
